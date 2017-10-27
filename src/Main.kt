@@ -15,6 +15,12 @@ fun staticTest() {
 }
 
 fun main(argv: Array<String>) {
-    staticTest()
-
+//    staticTest()
+//    var i = Action.values()
+//    println(i)
+//    val a: Nothing
+    val s = initState
+    init()
+    search(s, null)
+    println("完成")
 }
