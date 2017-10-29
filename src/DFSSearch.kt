@@ -26,7 +26,7 @@ private fun search(stateList: LinkedList<State>, actionList: LinkedList<Action>)
                 if (checkFinish(s)) {
                     countSolve += 1
                     println("找到第 $countSolve 个解，步骤如下：")
-                    actionList.forEach { println(it) }
+                    a.forEach { println(it) }
                     return
                 }
                 search(stateList.clone() as LinkedList<State>, a)
