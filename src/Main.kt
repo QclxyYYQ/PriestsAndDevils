@@ -1,3 +1,6 @@
+import java.util.*
+
+//静态测试，根据已知的步骤验证模型没问题
 fun staticTest() {
     println(doAction(Action.TWO_MONSTER_GO))
     println(doAction(Action.ONE_MONSTER_BACK))
@@ -15,12 +18,9 @@ fun staticTest() {
 }
 
 fun main(argv: Array<String>) {
+
 //    staticTest()
-//    var i = Action.values()
-//    println(i)
-//    val a: Nothing
-    val s = initState
-    init()
-    search(s, null)
-    println("完成")
+    search()
+
+    println("问题已解决。")
 }
