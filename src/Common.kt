@@ -1,5 +1,8 @@
 import Position.*
 
+/**
+ * 船的位置信息
+ */
 enum class Position(v: Int) {
     LOCAL(0),
     REMOTE(1)
